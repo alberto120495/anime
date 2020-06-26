@@ -380,3 +380,14 @@ footer {
   float: left;
   width: 100%;
 }
+
+.buscar{
+  background: var(--bg-color) !important;
+}
+
+.botones .lista{
+  padding: 2px;
+  margin: 1px;
+  margin-bottom: 6px;
+}
+

@@ -27,7 +27,7 @@
         </ul>
         <form class="form-inline my-2 my-lg-0"  method="POST" action="<?=baseUrl?>serie/busqueda" >
           <input name="busqueda" class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" />
-          <input class="btn btn-outline-success boton my-2 my-sm-0" type="submit" value="Buscar">
+          <input class="btn btn-outline-success buscar my-2 my-sm-0" type="submit" value="Buscar">
         </form>
       </div>
     </nav>

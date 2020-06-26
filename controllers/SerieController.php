@@ -40,8 +40,6 @@ class SerieController
                 //?Guardar la imagen
                 if (isset($_FILES['imagen'])) {
                     $archivo = $_FILES['imagen'];
-                    //$archivo = new PHPThumb\GD($archivo);
-                    //$archivo->resize(1037,1500);
                     $fileName = $archivo['name'];
                     $type = $archivo['type'];
                     if ($type == "image/jpg" || $type == "image/jpeg" || $type == "image/png" || $type == "image/gif") {
