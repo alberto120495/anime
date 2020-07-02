@@ -1,6 +1,6 @@
 <h1><?= $cap->nombre ?></h1>
 <div class="botones">
-    <div class="" role="group" aria-label="...">
+    <div class="" role="group" >
 
         <?php if ($_GET['cap'] > 1) : ?>
             <a class="btn btn-sm alert-primary lista" href="<?= baseUrl ?>capitulo/index&id_rel=<?= $cap->id_rel ?>&cap=<?= $cap->capitulo - 1 ?>">Anterior</a>
